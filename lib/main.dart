@@ -18,7 +18,7 @@ void main() async {
   // 2. Inicializar Supabase
   await Supabase.initialize(
     url: Environment.supabaseUrl,
-    anonKey: Environment.supabaseAnonKey,
+    publishableKey: Environment.supabaseAnonKey,
   );
 
   // 3. Inicializar otras dependencias
